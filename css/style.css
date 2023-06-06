@@ -1,0 +1,18 @@
+@charset "UTF-8";
+h2 {
+  color: yellow;
+}
+
+body {
+  height: 100%; /*medidas de referência da página para uso no container*/
+  width: 100%;
+  margin: 0;
+}
+
+body,
+html,
+header,
+footer,
+h1, h2, h3, p {
+  font-family: "Roboto", sans-serif;
+}/*# sourceMappingURL=style.css.map */
