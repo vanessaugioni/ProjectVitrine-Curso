@@ -1,8 +1,4 @@
 @charset "UTF-8";
-h2 {
-  color: yellow;
-}
-
 body {
   height: 100%; /*medidas de referência da página para uso no container*/
   width: 100%;
