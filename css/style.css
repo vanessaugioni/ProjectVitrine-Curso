@@ -78,6 +78,10 @@ main section {
   align-items: center;
   padding: 34px 0 110px 0;
 }
+main section .conteudo {
+  width: 357px;
+  height: 630px;
+}
 main h1 {
   font-size: 60px;
   line-height: 70px;
