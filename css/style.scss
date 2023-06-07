@@ -7,21 +7,180 @@
     // --text-description: #9C9696;
 
 
-    body {
-        height: 100%; /*medidas de referência da página para uso no container*/
-        width: 100%;
+  body {
+        height: 100vh; /*medidas de referência da página para uso no container*/
+        width: 100vw;
         margin: 0;
         background-color: #E5E5E5;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
       }
 
-    body,
-    html,  
-    header, 
-    footer, 
-    h1, h2, h3, p {
-        font-family: 'Roboto', sans-serif;
-
+  body,
+  html,  
+  header, 
+  footer, 
+  h1, h2, h3, p {
+  font-family: 'Roboto', sans-serif;
     }
+
+// * CABEÇALHO (HEADER) ---------------------------------------------------
+
+.header {
+  
+      nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+
+      .logotenis {
+        width: 52px;
+        height: 36px;
+      }
+
+      .logobag{
+        width: 25px;
+        height: 28px;
+
+      }
+  
+      a{
+        
+        font-size: 24px;
+        line-height: 28px;
+        font-weight: 700;
+        color: #000000;
+        border: none;
+        background: none;
+
+      }
+    }
+
+
+
+// * CORPO (BODY) ---------------------------------------------------
+
+.body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+ main { 
+
+      section{
+        width: 357px;
+       
+      }
+
+      h1{
+        font-size: 60px;
+        line-height: 70px;
+        color: #000000;
+      }
+
+      p{
+        top: 0px;
+        font-size: 16px;
+        line-height: 19px;
+        color: #9C9696;
+        ;
+      }
+
+      h2{
+        font-size: 40px;
+        line-height: 47px;
+      }
+
+      button {
+        width: 274px;
+        height: 90px;
+        border: none;
+        font-size: 24px;
+        line-height: 28px;
+        color: #FFFFFF;
+        background: #FF0000;
+
+      }
+
+      article {
+
+        .div1{
+
+          display: flex;
+          justify-content: center;
+
+        .tenis-1-ampliado{
+          width: 597px;
+          height: 510px;
+          
+        }
+      }
+
+        .div2{
+          display: flex;
+          gap: 2rem;
+
+          img {
+            width: 269px;
+            height: 182px;
+           
+          }
+
+        }
+
+
+
+
+
+      }
+
+
+ }
+
+
+
+
+
+
+
+
+// * RODAPÉ (FOOTER) ---------------------------------------------------
+
+    .footer {
+    
+
+      nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+       
+        a{
+          font-size: 18px;
+          line-height: 21px;
+          font-weight: 700;
+          color: #000000;
+          border: none;
+          background: none;
+        }
+
+      }
+
+      
+  }
+
+
+    
+
+
+
+
+
+
 
 
 
