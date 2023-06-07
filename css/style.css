@@ -81,6 +81,7 @@ main section {
 main section .conteudo {
   width: 357px;
   height: 630px;
+  gap: 0;
 }
 main h1 {
   font-size: 60px;
